@@ -39,7 +39,7 @@ function App() {
     if (!localTodos) {
       return
     }
-    console.log(localTodos)
+
     localTodos = JSON.parse(localTodos).todos
     setTodos(localTodos)
   }, [])
